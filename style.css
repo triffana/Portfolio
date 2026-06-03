@@ -537,13 +537,26 @@ section h1{
     margin-bottom:15px;
     line-height:1.8;
 }
-#about
-{
+section{
+    padding:20px 8% 100px;
     scroll-margin-top:120px;
 }
-
-
-
+#home,
+#about,
+#skills,
+#projects,
+#experience,
+#education{
+    scroll-margin-top:120px;
+}
+footer{
+    text-align:center;
+    padding:5px 200px;
+}
+#contact{
+    scroll-margin-top:120px;
+    padding-bottom:100px;
+}
 /* CASE STUDY PAGE */
 
 .case-study{
@@ -829,4 +842,11 @@ section h1{
         text-align:center;
         padding:20px;
     }
+}
+.visitor-counter{
+    text-align:center;
+    margin:30px 0;
+    font-size:18px;
+    color:#60a5fa;
+    font-weight:700;
 }
